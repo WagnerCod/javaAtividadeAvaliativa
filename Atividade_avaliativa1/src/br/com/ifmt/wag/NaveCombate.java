@@ -14,8 +14,9 @@ public class NaveCombate extends NaveEspacial{
 	}
 	
 	public void atacar() {	
-		System.out.println("Atacando inimingo com " + armamento);
+		System.out.println("Atacando inimingo com " + getArmamento());
 	}
 
+	
 
 }

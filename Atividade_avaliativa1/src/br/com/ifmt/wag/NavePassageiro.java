@@ -16,7 +16,7 @@ public class NavePassageiro extends NaveEspacial{
 	public void embarcar(int passageiros) {
 		if(passageirosAtual + passageiros <= numeroTripulantes) {
 			passageirosAtual += passageiros;
-			System.out.println("Numeros de passageiros atuais: " + passageirosAtual + ", Embarcando: " + passageiros );
+			System.out.println("Numeros de passageiros atuais: " + numeroTripulantes + ", Embarcando: " + passageiros );
 		}else {
 			System.out.println("Nenhum passageiro vai embarcar");
 		}

@@ -13,19 +13,19 @@ public abstract class NaveEspacial {
 	        this.combustivel = combustivel;
 	    }
 		public String nome(String nome) {
-			return null;
+			return this.nome = nome;
 		}
 		
 		public double velocidadeMax(double velocidade) {
-			return 0;
+			return this.velocidadeMaxima = velocidade;
 		}
 		
 		public int numerosPassageiros(int numeroTripulantes) {
-			return 0;
+			return this.numeroTripulantes =  numeroTripulantes;
 		}
 
 		public double combustivel(double combustivel) {
-			return 0;
+			return this.combustivel = combustivel;
 		}
 		
 
@@ -68,6 +68,6 @@ public abstract class NaveEspacial {
 			return "NaveEspacial nome: " + nome + ", velocidadeMaxima: " + velocidadeMaxima + ", numeroTripulantes: "
 					+ numeroTripulantes + ", combustivel: " + combustivel;
 		}
-
+		
 
 }

@@ -26,21 +26,6 @@ public class NaveCarga  extends NaveEspacial{
         }
     }
 	
-	//@Override
-	//public String nome(String nome) {
-	//	return this.nome = nome;
-	///}
-	
-	@Override
-	//public double velocidadeMax(double velocidade) {
-	//	return this.velocidadeMaxima = velocidade;
-	//}
-	
-	//@Override
-	//public double combustivel( double combustivel) {
-	//	return this.combustivel = combustivel;
-	//}
-	
 	
 	public String verCarga() {
 		return "NaveCarga capacidadeCarga: " + capacidadeCarga + ", cargaAtual: " + cargaAtual;
